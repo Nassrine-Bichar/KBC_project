@@ -2,7 +2,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "bichar2@.N";
+$password = "";
 $dbname = "customer_data";
 
 // Create a connection
