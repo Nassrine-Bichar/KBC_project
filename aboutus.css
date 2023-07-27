@@ -1,0 +1,64 @@
+body{
+font-family: 'Roboto';
+margin-bottom: 100px;
+}
+nav {
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	top:0;
+	background-color: #ffffff;
+	height: 80px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+
+nav .logo img {
+	height: 50px;
+}
+.logo{
+	align-self: flex-start;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-left: 40px;
+}
+
+nav li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+.main h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+.container{
+	width: 70%;
+	margin: auto;
+}
+.container img{
+	width: 100%;
+}

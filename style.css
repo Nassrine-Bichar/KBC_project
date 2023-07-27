@@ -1,0 +1,286 @@
+/* Global Styles */
+body {
+	font-family: 'Roboto';
+	margin: 0;
+	padding: 0;
+  background-color:#e6e6e6;
+  font-weight: 400;
+  color: #4d4c4c;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Navbar Styles */
+nav {
+	background-color: #ffffff;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 50px;
+}
+
+nav .logo img {
+	height: 50px;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin-left: 40px;
+}
+
+nav li:first-child {
+	margin-left: 0;
+}
+
+nav a {
+	color: #000000;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+.main h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.main p {
+	font-size: 15px;
+	margin-bottom: 30px;
+  color: rgb(80, 77, 77);
+}
+
+.main a {
+	display: inline-block;
+	padding: 12px 30px;
+	background-color: #0066cc;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.main a:hover {
+	background-color: #0052a3;
+}
+.main{
+  padding:0;
+  width: 100%;
+  margin:0;
+}
+.main-container {
+  width: 100%;
+  background-image: url('Images/park-home-banner-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  width: 50%;
+  text-align: left;
+  margin-left:50px;
+  text-align: center;
+}
+
+.right {
+  width: 50%;
+  position: relative;
+  margin:0;
+  padding:0;
+}
+
+
+.image-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.image-box {
+  width: 250px;
+  height: 350px;
+  margin: 5px;
+  position: relative;
+}
+.image-description{
+  cursor: pointer;
+}
+.image-description:hover{
+  color: white;
+  transition: 1s;
+}
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.image-description {
+  font-family:'Prompt', sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #000000;
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.image-description h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.image-description p {
+  margin-top: 0;
+}
+
+.about-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.about{
+ justify-self: center;
+}
+.learn-more{
+  background-color: #0066cc;
+  color:white;
+
+  padding:12px 50px 12px 50px;
+}
+
+
+footer {
+  background-color: #e6e6e6;
+  color: #000000;
+  padding: 10px 0;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #000000;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li:last-child {
+  margin-right: 0;
+}
+
+.fa {
+  color: #000000;
+  font-size: 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa:hover {
+  color: #cccccc;
+}
+.row{
+  display: flex;
+}
+.second-container img{
+  max-width: 600px;
+
+}
+.second-container .sright {
+  margin-top: 60px;
+  width: 400px;
+  font-weight:bolder;
+  margin-right: 100px;
+
+}
+.second-container .sright p{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: medium;
+  font-weight:bold;
+
+}
+.second-container{
+ margin-bottom: 200px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+}
+.sright a {
+  margin-top: 60px;
+}
+.third-container img{
+  max-width: 600px;
+  padding-bottom: 50px;
+}
+.third-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ margin-top: 100px;
+
+}
+.third-container .the-text{
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  font-size: medium;
+  max-width: 600px;
+  padding-left: 50px;
+}
+.line{
+  
+  width: 100%;
+  height: 1px;
+  background-color: #c7bcbc;
+  box-shadow: 0 0 10px rgba(0, 153, 255, 0.2);
+}
+.same{
+  font-family: 'Prompt', sans-serif;
+font-weight: bolder;
+}
