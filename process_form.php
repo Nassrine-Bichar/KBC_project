@@ -2,7 +2,7 @@
     // Database configuration
     $servername = "localhost";
     $username = "root";
-    $password = "bichar2@.N";
+    $password = "";
     $dbname = "enquiries";
     // Create a connection
     $conn=mysqli_connect($servername, $username, $password, $dbname);
